@@ -22,7 +22,7 @@ To install from source you will need to make sure you have the mingw installed.
 And you can download your ffmpeg in this place,choose dev and shared builds.
 	http://ffmpeg.zeranoe.com/builds/
 Or make it by yourself.
-'''bash
+```bash
 	cd ~/libx264-src
 	./configure --enable-static
 	make
@@ -32,12 +32,12 @@ Or make it by yourself.
 	./configure --enable-libx264 --enable-shared --enable-gpl
 	make
 	make install
-'''
+```
 
 You can then build and install m3u8-segmenter by running
-'''bash
+```bash
 	gcc -O3 -Wall -g m3u8-segmenter.c -o m3u8-segmenter -lavformat -lavutil -lavcodec
-'''
+```
 or
 ``` bash
 aclocal
