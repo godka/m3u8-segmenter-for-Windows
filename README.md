@@ -17,10 +17,14 @@ It was originally written by Chase Douglas and is now maintained by John
 Ferlito.
 
 ##Installing
-To install from source you will need to make sure you have the mingw installed. 
+To install from source you will need to make sure you have the mingw installed.
+``` 
 	http://www.mingw.org/
+```
 And you can download your ffmpeg in this place,choose dev and shared builds.
+```
 	http://ffmpeg.zeranoe.com/builds/
+```
 Or make it by yourself.
 ```bash
 	cd ~/libx264-src
